@@ -1,0 +1,227 @@
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+p {
+    font: Bodoni MT;
+    color: whitesmoke;
+}
+
+.hero {
+    background-image: url("http://abilenescene.com/wp-content/uploads/2015/01/iStock_000031863748_Mediums.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 1200px;
+}
+.container {
+    text-align: center;
+    font-family: cursive;
+}
+h1 {
+    font-family: forte;
+    font-size: 90px;
+    color: whitesmoke;
+    padding: 15px;
+}
+h2 {
+    font-family: forte;
+    font-size: 90px;
+    padding: 15px;
+    color: whitesmoke;
+}
+h4 {
+    font-family: forte;
+    font-size: 45px;
+    padding: 15px;
+    color: whitesmoke;
+}
+h5 {
+    font: Bodoni MT;
+    color: whitesmoke;
+}
+body {
+    background-image: url("https://c1.staticflickr.com/4/3390/3345597895_ef44f6fc7b_b.jpg");
+    background-size: contain;
+}
+
+#gracenoteResults {
+    width: 100%;
+    display: flex;
+}
+
+.dropdown {
+    color: whitesmoke;
+}
+
+#yelpResults {
+    width: 100%;
+    display: flex;
+}
+#yelpResultsHidden {
+    width: 100%;
+    display: flex;
+}
+
+#yelpResultsHiddenTwo {
+    width: 100%;
+    display: flex;
+}
+
+#yelpResultsHiddenThree {
+    width: 100%;
+    display: flex;
+}
+#yelpResultsHiddenFour {
+    width: 100%;
+    display: flex;
+}
+
+#yelpImg {
+    width: 300px;
+    height: 250px;
+    max-height: 225px;
+    margin-bottom: 5px;
+}
+
+#stars {
+    margin-bottom: 3px;
+}
+
+.resultCard {
+    display: inline-block;
+    flex: 1;
+    height: 500px;
+    width: 300px;
+}
+
+
+
+.yelpAddress {
+    font-size: 12px;
+    line-height: 5px;
+    font-weight: bolder;
+}
+
+.card-block {
+    height: 200px;
+    position: relative;
+}
+
+.review {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.yelpLink {
+    border: 5px solid lightcoral;
+    background-color: lightcoral; 
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    
+}
+
+.TMheader {
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.TMcopy {
+
+}
+
+.TMlink {
+    border: 1px solid #56565a;
+    background-color: #1f9bde; 
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+    bottom: 10px; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100px; 
+}
+
+.TMimg {
+    min-width: 100%;
+    max-height: 225px;
+}
+
+.yelpLink:hover {
+    text-decoration: none;
+    color: white;
+    border: 5px solid red;
+}
+
+/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
+
+.footing {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.nav-item {
+    color: red;
+}
+.btn {
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+#zip-code {
+    justify-content: center;
+    margin: auto;
+    max-width: 20%;
+}
+
+#Date {
+    justify-content: center;
+    margin: auto;
+    max-width: 20%;
+}

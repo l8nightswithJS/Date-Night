@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Date Night</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="assets/datenight.css">
+    
+    
+</head>
+<body>
+
+<br>
+    <section class='hero'>
+            <div class="d-flex justify-content-center"><h1>Date Night</h1></div>
+    </section>
+
+    <section class='container'>
+            <div class="card text-center">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Even Casanova needed help finding places to take potential lovers.</h5>
+                      <p class="card-text">Are you attempting to plan a date night and have absoultely no idea where to start? Where to go, what to do, and what to eat can be complicated decisions while you are attempting to woo a potential lover. Click below and let us help you get started! </p>
+                    </div>
+                 
+                 <br>           
+    <form>
+        <div class="form-group">
+            <label for="Location">Location</label>
+            <input type="zip-code" class="form-control" id="zip-code" placeholder="ZipCode">
+        </div>
+        <div class="form-group">
+          <label for="Date">When is your Date?</label>
+          <input type="Date" class="form-control" id="Date" aria-describedby="dateDate" placeholder="xx/xx/xxxx">
+        </div>
+                
+        <div class="dropdown">
+            <label for='yelpSearch'>I am also interested in...</label>
+            <br>
+            <select class="btn btn-secondary dropdown-toggle" type="select" id="yelpSearch" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" value='dropDown'>
+
+                <option id='breakfast'>Breakfast</option>
+                <option id='brunch'>Brunch</option>
+                <option id='lunch'>Lunch</option>
+                <option id='dinner'>Dinner</option>
+                <option id='bars'>Bars</option>
+                <option id='breweries'>Breweries</option>
+                <option id='wineries'>Wineries</option>
+                <option id='coffee'>Coffee</option>
+                <option id='tea'>Tea</option>
+                <option id='dessert'>Dessert</option>
+                
+            </select>
+        </div>    
+    <br>   
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>            
+    </section>  
+<br>
+
+    <section class="container p-t-3">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Results:</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="gracenoteCarousel slide" data-ride="carousel" id="gracenote">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-md-right lead">
+                    <h4><a class="btn btn-outline-secondary gracenotePrev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i><</a>
+                    Movies    
+                    <a class="btn btn-outline-secondary gracenoteNext" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i>></a></h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="container p-t-0 m-t-2 carousel-inner">
+            <div class="row row-equal carousel-item active m-t-0">
+                <div id='gracenoteResults'></div>
+            </div>
+            <div class="row row-equal carousel-item m-t-0">
+                <div id='gracenoteResultsHidden'></div>
+            </div>
+            <div class="row row-equal carousel-item m-t-0">
+                <div id='gracenoteResultsHiddenTwo'></div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="ticketmasterCarousel slide" data-ride="carousel" id="ticketmaster">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-md-right lead">
+                    <h4><a class="btn btn-outline-secondary ticketmasterPrev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i><</a>
+                    Events    
+                    <a class="btn btn-outline-secondary ticketmasterNext" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i>></a></h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="container p-t-0 m-t-2 carousel-inner">
+            <div class="row row-equal carousel-item active m-t-0">
+                <div id='ticketmasterResults'></div>
+            </div>
+            <div class="row row-equal carousel-item m-t-0">
+                <div id='ticketmasterResultsHidden'></div>
+            </div>
+            <div class="row row-equal carousel-item m-t-0">
+                <div id='ticketmasterResultsHiddenTwo'></div>
+            </div>
+            
+        </div>
+    </section>
+    
+    <section class="yelpCarousel slide" data-ride="carousel" id="yelp">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-md-right lead">
+                    <h4><a class="btn btn-outline-secondary yelpPrev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i><</a>
+                    Dining and Beverages
+                    <a class="btn btn-outline-secondary yelpNext" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i>></a></h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="container p-t-0 m-t-2 carousel-inner">
+            <div class="row row-equal carousel-item active m-t-0">
+                <div id='yelpResults'></div>
+            </div>
+            <div class="row row-equal carousel-item m-t-0">
+                <div id='yelpResultsHidden'></div>
+            </div>
+            <div class="row row-equal carousel-item m-t-0">
+                <div id='yelpResultsHiddenTwo'></div>
+            </div>
+            <div class="row row-equal carousel-item m-t-0">
+                <div id='yelpResultsHiddenThree'></div>
+            </div>
+            
+        </div>
+    </section>
+    <br>
+    <section>
+    <footer>
+                   <div class="w3-container w3-white">
+                
+                  <br>
+                    <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                              <a class="nav-link active" href="https://www.match.com/">Still Single?</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="https://www.proflowers.com/">Shop Flowers</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="https://www.sees.com/">Shop Candy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://ideas.hallmark.com/articles/anniversary-ideas/anniversary-gifts-by-year/">Anniversary Gift Ideas</a>
+                            </li>
+
+                    </ul>
+                </br>
+            </div>
+        </div>
+    </div>    
+ 
+    </footer>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src='assets/yelp.js'></script>
+    <script src='assets/gracenote.js'></script>
+    <script src="assets/ticketmaster.js"></script>
+
+
+    
+</body>
+
+</html>
+
+
